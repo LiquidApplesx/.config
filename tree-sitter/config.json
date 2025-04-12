@@ -1,0 +1,68 @@
+{
+  "parser-directories": [
+    "/home/kari/github",
+    "/home/kari/src",
+    "/home/kari/source",
+    "/home/kari/projects",
+    "/home/kari/dev",
+    "/home/kari/git"
+  ],
+  "theme": {
+    "punctuation.delimiter": 239,
+    "function": 26,
+    "number": {
+      "bold": true,
+      "color": 94
+    },
+    "keyword": 56,
+    "punctuation": 239,
+    "tag": 18,
+    "variable": 252,
+    "comment": {
+      "italic": true,
+      "color": 245
+    },
+    "embedded": null,
+    "attribute": {
+      "italic": true,
+      "color": 124
+    },
+    "operator": {
+      "bold": true,
+      "color": 239
+    },
+    "property.builtin": {
+      "bold": true,
+      "color": 124
+    },
+    "string": 28,
+    "punctuation.bracket": 239,
+    "string.special": 30,
+    "variable.builtin": {
+      "color": 252,
+      "bold": true
+    },
+    "variable.parameter": {
+      "color": 252,
+      "underline": true
+    },
+    "property": 124,
+    "constant": 94,
+    "function.builtin": {
+      "bold": true,
+      "color": 26
+    },
+    "constant.builtin": {
+      "bold": true,
+      "color": 94
+    },
+    "punctuation.special": 239,
+    "type": 23,
+    "type.builtin": {
+      "color": 23,
+      "bold": true
+    },
+    "constructor": 136,
+    "module": 136
+  }
+}

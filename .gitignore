@@ -59,3 +59,45 @@ fish/conf.d/private.fish
 BraveSoftware/Brave-Browser
 niri/config.kdl
 nvim/CLAUDE.md
+Cemu
+Code - OSS/User
+JetBrains/PyCharmCE2024.3
+Mullvad VPN
+Proton Mail
+Ryujinx
+Ultralytics
+WiiUDownloader
+autostart
+gh
+github-copilot
+glib-2.0/settings
+go/telemetry/local
+hyde
+kde.org
+menus
+microsoft-edge
+miopen
+nwg-displays
+nwg-look
+obsidian
+onlyoffice
+pupgui
+qalculate
+qt5ct
+qt6ct
+spicetify
+spotify
+teams-for-linux
+vesktop
+xsettingsd
+arkrc
+baloofileinformationrc
+baloofilerc
+code-flags.conf
+dolphinrc
+gtk-4.0
+kiorc
+trashrc
+pavucontrol.ini
+nvim-Lazyman
+SpaceVim.d

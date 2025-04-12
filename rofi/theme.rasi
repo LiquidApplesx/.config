@@ -1,0 +1,12 @@
+@import "catppuccin-mocha"
+
+* {
+    main-bg:            #11111b;
+    main-fg:            #94e2d5;
+    main-br:            #94e2d5;
+    main-ex:            #f9e2af;
+    select-bg:          #cba6f7;
+    select-fg:          #11111b;
+    separatorcolor:     transparent;
+    border-color:       transparent;
+}

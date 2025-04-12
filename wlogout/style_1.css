@@ -1,0 +1,95 @@
+* {
+  background-image: none;
+  box-shadow: none;
+}
+
+window {
+  background-color: rgba(30, 30, 46, 0.90);
+}
+
+button {
+  border-radius: 0;
+  border-color: #94e2d5;
+  text-decoration-color: #cdd6f4;
+  color: #cdd6f4;
+  background-color: #181825;
+  border-style: solid;
+  border-width: 1px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 25%;
+}
+
+button:focus,
+button:active,
+button:hover {
+  /* 20% Overlay 2, 80% mantle */
+  background-color: rgb(48, 50, 66);
+  outline-style: none;
+}
+
+button:hover#lock {
+    border-radius: ${active_rad}px;
+    margin : ${hvr}px 0px ${hvr}px ${mgn}px;
+}
+
+button:hover#logout {
+    border-radius: ${active_rad}px;
+    margin : ${hvr}px 0px ${hvr}px 0px;
+}
+
+button:hover#suspend {
+    border-radius: ${active_rad}px;
+    margin : ${hvr}px 0px ${hvr}px 0px;
+}
+
+button:hover#shutdown {
+    border-radius: ${active_rad}px;
+    margin : ${hvr}px 0px ${hvr}px 0px;
+}
+
+button:hover#hibernate {
+    border-radius: ${active_rad}px;
+    margin : ${hvr}px 0px ${hvr}px 0px;
+}
+
+button:hover#reboot {
+    border-radius: ${active_rad}px;
+    margin : ${hvr}px ${mgn}px ${hvr}px 0px;
+}
+
+#lock {
+  background-image: url("/home/kari/.config/wlogout/icons/lock.svg");
+  border-radius: ${button_rad}px 0px 0px ${button_rad}px;
+  margin : ${mgn}px 0px ${mgn}px ${mgn}px;
+}
+
+#logout {
+  background-image: url("/home/kari/.config/wlogout/icons/logout.svg");
+  border-radius: 0px 0px 0px 0px;
+  margin : ${mgn}px 0px ${mgn}px 0px;
+}
+
+#suspend {
+  background-image: url("/home/kari/.config/wlogout/icons/suspend.svg");
+  border-radius: 0px 0px 0px 0px;
+  margin : ${mgn}px 0px ${mgn}px 0px;
+}
+
+#hibernate {
+  background-image: url("/home/kari/.config/wlogout/icons/hibernate.svg");
+  border-radius: 0px 0px 0px 0px;
+  margin : ${mgn}px 0px ${mgn}px 0px;
+}
+
+#shutdown {
+  background-image: url("/home/kari/.config/wlogout/icons/shutdown.svg");
+  border-radius: 0px 0px 0px 0px;
+  margin : ${mgn}px 0px ${mgn}px 0px;
+}
+
+#reboot {
+  background-image: url("/home/kari/.config/wlogout/icons/reboot.svg");
+  border-radius: 0px ${button_rad}px ${button_rad}px 0px;
+  margin : ${mgn}px ${mgn}px ${mgn}px 0px;
+}
